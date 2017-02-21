@@ -1,0 +1,138 @@
+/* Reset */
+@import "reset.css";   
+
+/* basics for page layout */		
+body {
+	width: 800px;
+	margin: 0 auto; /* to center the page */
+	position: relative; /* to enable positioning */
+}
+header { 
+	position: relatve;
+	max-height: 160px; /* to set the max height fr header */
+	box-shadow:1px 1px 4px gray;
+}
+article {
+	width: 64%; /* to use a percent value to set the width */
+	float: left; /* floating element on the left side */
+	height: auto;
+	box-shadow:1px 1px 2px gray;
+	padding: 5px;
+	max-height: 360px;
+	overflow: scroll; /* to display the scrollbars */
+	overflow-x: hidden; /* to hide the horizontal scrollbars */
+	position: relative;
+	top: 9px;
+	right: 1px;
+}
+aside {
+	width: 32%;
+	float: right; /* floating element on the right side */
+	padding: 5px; 
+}
+footer {
+	clear: both; /* no floating elements on either left or right side */
+	min-height: 100px;
+	background-color:rgba(192,192,192,0.6);
+	box-shadow:1px 1px 4px gray;
+}
+/* basics for headings */
+h1 {
+	font-size: 60px; /* to set the size of the font */
+	position: relative; /* to enable positioning */
+	z-index: 20; /* to specify the stack order */
+	top: 10px; /* move to the bottom */
+	left: 95px; /* move to the right */
+	color: orange; /* to present the color of text */
+	text-shadow:3px 3px 18px black;
+	font-family : "Trebuchet MS", Helvetica, sans-serif; /* to change the information of font */
+}
+h2 {
+	font-size: 30px;
+	font-style: italic;
+	position: relative;
+	z-index: 30;
+	top: 10px;	
+	left: 95px;
+	color: orange; /* to present the color of text */
+	text-shadow:3px 3px 12px black;
+	font-family : "Trebuchet MS", Helvetica, sans-serif;
+}
+h3 {
+	text-align: center; /* centers the text content */
+	font-size: 22px;
+	color: #AD85FF;
+	font-family : "Trebuchet MS";
+	font-style: italic;
+}
+/* basics for navigation */
+nav {
+	position: relative;
+	bottom: 105px; /* move to the top */
+	left: 42px;
+	font-size: 25px;
+	font-family : "Trebuchet MS", Helvetica, sans-serif;
+}
+p {
+	padding:1px 0
+}
+/* basics for the element with id="" */
+#part1 {
+	background: black; /* to set the background color to black */
+	color: #FFF; /* to present the color of text */	
+	border: 2px solid black; /* to set the border for navigation */
+}
+#part2 {
+	background: black;
+	color: #FFF;
+	border: 2px solid black;	
+}
+#part3 {
+	background: black;
+	color: #FFF;	
+	border: 2px solid black;
+}
+#part4 {
+	background: black;
+	color: #FFF;	
+	border: 2px solid black;	
+}
+#part5 {
+	background: black;
+	color: #FFF;	
+	border: 2px solid black;
+}
+#search {
+	font-family: "Trebuchet MS", Helvetica, sans-serif; /* to change the information of font */
+	position: relative; /* to enable positioning */
+	bottom: 128px;	/* move to the top */
+	left: 560px; /* move to the right */
+}
+#lipsum1{
+	font-family: Times;
+	font-size: 18px; /* to set the size of a font */
+	text-align: justify; /* to stretch lines to keep the same width */
+}
+#lipsum2{
+	font-family: Times;
+	font-size: 18px;
+	text-align: justify;
+}
+#s {
+	height: 130px; /* to set the height of the picture */
+	width: 110px; /* to set the width of the picture */
+	position: relative;
+	z-index: 10;
+	bottom: 90px;
+	left: 10px;
+}
+#picture {
+	height: 200px; 
+	width: 800px;
+	position: absolute;
+	z-index: -10;
+	right: 0px; /* move to the left */
+	top: 0px;
+}
+	
+	
